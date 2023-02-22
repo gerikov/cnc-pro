@@ -69,16 +69,16 @@ li {
     padding: 0 6%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    max-width: 1200px;
+    justify-content: space-between;
+    max-width: 1400px;
     margin: 4rem auto;
     .szerviz__cnc-text {
       float: left;
-      width: 50%;
+      width: 45%;
       padding: 2rem 0;
     }
     .szerviz__cnc-img {
-      width: 50%;
+      width: 45%;
 
       img {
         max-width: 100%;
@@ -93,12 +93,12 @@ li {
     padding: 0 6%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    max-width: 1200px;
+    justify-content: space-between;
+    max-width: 1400px;
     margin: 8rem auto;
     .szerviz__machines-img {
       background-color: rgb(225, 151, 53);
-      width: 50%;
+      width: 45%;
 
       //   display: flex;
 
@@ -112,7 +112,7 @@ li {
 
     .szerviz__machines-text {
       padding: 2rem 0;
-      width: 50%;
+      width: 45%;
 
       .divider {
         border-top: 1px solid dimgray;

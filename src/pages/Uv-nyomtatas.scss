@@ -45,15 +45,17 @@ img {
     justify-content: center;
     max-width: 1400px;
     margin: 0 auto;
+    h2 {
+      color: black;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
     .uv-print {
       display: flex;
       justify-content: space-between;
       align-items: center;
       flex-wrap: wrap;
 
-      h2 {
-        margin-bottom: 1rem;
-      }
       .left {
         display: flex;
         flex-direction: column;
@@ -66,9 +68,6 @@ img {
       justify-content: space-between;
       align-items: center;
       flex-wrap: wrap;
-      h2 {
-        margin-bottom: 1rem;
-      }
     }
     .white {
       .label {
@@ -90,10 +89,6 @@ img {
       justify-content: space-between;
       align-items: center;
       flex-wrap: wrap;
-
-      h2 {
-        margin-bottom: 1rem;
-      }
     }
 
     .works {
@@ -125,6 +120,9 @@ img {
       }
       h3 {
         font-size: 1.5rem !important;
+      }
+      section {
+        margin-top: 2rem !important;
       }
     }
   }

@@ -11,12 +11,12 @@ const Szerviz = () => {
       <section className="szerviz__hero">
         <h3>Telefonos segítség</h3>
         <button>
-          <a href="tel:+3630-644-1871">
+          <a href="tel:+36 30 297 9420">
             <div className="szerviz__hero-phone">
               <LocalPhoneIcon
                 sx={{ fontSize: "30px", margin: "0 10px 0 0 " }}
               />
-              +36 30 123 45 67
+              +36 30 297 9420
             </div>
           </a>
         </button>
@@ -82,9 +82,7 @@ const Szerviz = () => {
           </h5>
         </div>
       </section>
-      <section className="">
-      
-      </section>
+      <section className=""></section>
     </div>
   );
 };

@@ -49,3 +49,19 @@
     }
   }
 }
+
+@media only screen and (max-width: 900px) {
+  .kapcsolat {
+    .container {
+      .left {
+        padding: 1rem 2rem !important;
+      }
+      .right {
+        padding: 2rem 0 !important;
+        .icon {
+          display: none;
+        }
+      }
+    }
+  }
+}

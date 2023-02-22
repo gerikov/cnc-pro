@@ -102,7 +102,12 @@ const Navbar = () => {
         }}
       >
         {navItems.map((item) => (
-          <MenuItem key={item} component={RouterLink} to={`${item.link}`}>
+          <MenuItem
+            key={item}
+            onClick={(e) => setOpen(false)}
+            component={RouterLink}
+            to={`${item.link}`}
+          >
             {item.menu}
           </MenuItem>
         ))}

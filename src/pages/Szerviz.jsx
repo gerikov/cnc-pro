@@ -8,14 +8,14 @@ const Szerviz = () => {
   return (
     <div className="szerviz">
       <section className="szerviz__hero">
-        <h3>Telefonos segítség</h3>
+        <h2>Telefonos segítség</h2>
         <button>
-          <a href="tel:+36 30 297 9420">
+          <a href="tel:+36 30 911 1261">
             <div className="szerviz__hero-phone">
               <LocalPhoneIcon
                 sx={{ fontSize: "30px", margin: "0 10px 0 0 " }}
               />
-              +36 30 297 9420
+              +36 30 911 1261
             </div>
           </a>
         </button>

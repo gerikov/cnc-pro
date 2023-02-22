@@ -15,7 +15,6 @@ const Kapcsolat = () => {
 
   return (
     <div className="kapcsolat">
-      <div className="hero"></div>
       <div className="container">
         <div className="left">
           <ContactForm />

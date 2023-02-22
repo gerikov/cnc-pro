@@ -1,4 +1,4 @@
-h3 {
+h2 {
   margin: 1rem 0;
   font-size: 1.7rem;
   font-weight: 600;
@@ -75,7 +75,7 @@ li {
     .szerviz__cnc-text {
       float: left;
       width: 50%;
-      padding: 2rem;
+      padding: 2rem 0;
     }
     .szerviz__cnc-img {
       width: 50%;
@@ -111,7 +111,7 @@ li {
     }
 
     .szerviz__machines-text {
-      padding: 2rem;
+      padding: 2rem 0;
       width: 50%;
 
       .divider {
@@ -150,5 +150,14 @@ li {
   .szerviz__machines-img {
     margin: auto 0;
     width: 100% !important;
+  }
+
+  .szerviz__hero {
+    padding: 2rem;
+    h2 {
+      color: white;
+      font-size: 2rem !important;
+      line-height: 2rem !important;
+    }
   }
 }

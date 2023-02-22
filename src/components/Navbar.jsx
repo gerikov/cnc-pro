@@ -43,17 +43,19 @@ const Navbar = () => {
               fontSize: { xs: "18px", sm: "32px" },
             }}
           />
-          <Typography
-            fontFamily="Kanit"
-            variant="h6"
-            color="secondary"
-            sx={{
-              fontSize: { xs: "18px", sm: "32px" },
-              marginLeft: "8px",
-            }}
-          >
-            CNC-Pro Kft
-          </Typography>
+          <RouterLink to={"/"}>
+            <Typography
+              fontFamily="Kanit"
+              variant="h6"
+              color="secondary"
+              sx={{
+                fontSize: { xs: "18px", sm: "32px" },
+                marginLeft: "8px",
+              }}
+            >
+              CNC-Pro Kft
+            </Typography>
+          </RouterLink>
         </Box>
 
         {/* DESKTOP MENU */}

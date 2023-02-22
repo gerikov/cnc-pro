@@ -53,7 +53,7 @@ const Kapcsolat = () => {
             </div>
             <div>
               <div className="label">Telefon</div>
-              <div className="data">+36 30 297 9420</div>
+              <div className="data">+36 30 911 1261</div>
             </div>
           </div>
         </div>

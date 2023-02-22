@@ -3,7 +3,6 @@ import "./Szerviz.scss";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import SafanSpringPack from "../assets/safan-spring-pack.jpg";
 import SafanBack from "../assets/safan-back.jpg";
-import Slider from "@mui/material/Slider";
 
 const Szerviz = () => {
   return (

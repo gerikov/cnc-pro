@@ -17,19 +17,19 @@ const ContactForm = () => {
 
   const form = useRef();
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    toast.success("Üzenet sikeresen elküldve", {
-      position: "bottom-right",
-      autoClose: 5000,
-      hideProgressBar: false,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: true,
-      progress: undefined,
-      theme: "dark",
-    });
-  };
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   toast.success("Üzenet sikeresen elküldve", {
+  //     position: "bottom-right",
+  //     autoClose: 5000,
+  //     hideProgressBar: false,
+  //     closeOnClick: true,
+  //     pauseOnHover: true,
+  //     draggable: true,
+  //     progress: undefined,
+  //     theme: "dark",
+  //   });
+  // };
 
   const sendEmail = (e) => {
     e.preventDefault();

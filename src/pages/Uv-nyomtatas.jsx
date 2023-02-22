@@ -6,7 +6,6 @@ import RolandLEF2 from "../assets/roland-lef2.jpg";
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 
-import Diagon from "../assets/works/diagon.jpg";
 import EasyWay from "../assets/works/easy-way.png";
 import Ft from "../assets/works/ft.jpg";
 import FtTeritek from "../assets/works/ft-teritek.jpg";

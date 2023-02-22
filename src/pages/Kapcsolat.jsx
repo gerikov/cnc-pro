@@ -7,11 +7,11 @@ import AlternateEmailOutlinedIcon from "@mui/icons-material/AlternateEmailOutlin
 import LocalPhoneOutlinedIcon from "@mui/icons-material/LocalPhoneOutlined";
 
 const Kapcsolat = () => {
-  const fromSchema = yup.object().shape({
-    name: yup.string().required("required"),
-    email: yup.string().required("required"),
-    phone: yup.string().required("required"),
-  });
+  // const fromSchema = yup.object().shape({
+  //   name: yup.string().required("required"),
+  //   email: yup.string().required("required"),
+  //   phone: yup.string().required("required"),
+  // });
 
   return (
     <div className="kapcsolat">

@@ -1,7 +1,4 @@
-import { DisabledByDefault } from "@mui/icons-material";
-import { Box } from "@mui/material";
 import React from "react";
-import bgImage from "../assets/pexels-daniel-smyth-10824760.jpg";
 import "./Home.scss";
 
 const Home = () => {

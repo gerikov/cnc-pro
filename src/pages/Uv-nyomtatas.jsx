@@ -7,8 +7,6 @@ import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 
 import EasyWay from "../assets/works/easy-way.png";
-import Ft from "../assets/works/ft.jpg";
-import FtTeritek from "../assets/works/ft-teritek.jpg";
 import Gs from "../assets/works/GS.jpg";
 import Hlf from "../assets/works/hlf.jpg";
 import Mp from "../assets/works/mp.jpg";
@@ -163,12 +161,6 @@ const UvNyomtatas = () => {
             >
               <div className="slide">
                 <img src={EasyWay} alt="" />
-              </div>
-              <div className="slide">
-                <img src={Ft} alt="" />
-              </div>
-              <div className="slide">
-                <img src={FtTeritek} alt="" />
               </div>
               <div className="slide">
                 <img src={Gs} alt="" />

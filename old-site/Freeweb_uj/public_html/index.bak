@@ -1,0 +1,809 @@
+<html>
+<head>
+<title>CNC-Pro - CNC szerszámgépek telepítése, javítása, karbantartása</title>
+<title>CNC-Pro Kft. CNC szervíz, gépfelújítás, javítás, megelõzõ karbantartás</title>
+<meta name="author" content="webmaster@cnc-pro.hu">
+<meta name="generator" content="Namo WebEditor">
+<meta name="description" content="céges, kereskedelem, szolgáltatás">
+<meta name="keywords" content="cnc szervíz, FANUC, Siemens, Heidenhain, First, Baykal, Resato, MCV, Giselis, Élhajlíto, elhajlito, szerszamgep szerviz, szerszamgep javitas, geptelepites, gepjavitas, plc, szerszámgép, szerszámgép szervíz, cnc, telepítés, telepites, javitas, javítás, cnc szervíz, FANUC, Siemens, Heidenhain, First, Baykal, Resato, MCV, Giselis, Élhajlíto, elhajlito, szerszamgep szerviz, szerszamgep javitas, geptelepites, gepjavitas, plc, szerszámgép, szerszámgép szervíz, cnc, telepítés, telepites, javitas, javítás, cnc szervíz, FANUC, Siemens, Heidenhain, First, Baykal, Resato, MCV, Giselis, Élhajlíto, elhajlito, szerszamgep szerviz, szerszamgep javitas, geptelepites, gepjavitas, plc, szerszámgép, szerszámgép szervíz, cnc, telepítés, telepites, javitas, javítás, cnc szervíz, FANUC, Siemens, Heidenhain, First, Baykal, Resato, MCV, Giselis, Élhajlíto, elhajlito, szerszamgep szerviz, szerszamgep javitas, geptelepites, gepjavitas, plc, szerszámgép, szerszámgép szervíz, cnc, telepítés, telepites, javitas, javítás, cnc szervíz, FANUC, ">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta name="GENERATOR" content="Namo WebEditor">
+<meta name="author" content="admin">
+<meta name="namo-theme" content="theme\Gray\Gray02">
+<style><!--
+body { font-family:Arial; font-size:11; color:rgb(102,102,102); background-color:rgb(241,241,241); }
+h1 { font-family:Arial; font-size:20; color:rgb(102,102,102); }
+h2 { font-family:Arial; font-size:15; color:rgb(102,102,102); }
+p.namo-list { font-family:Arial; font-size:11; color:rgb(102,102,102); }
+p.namo-sublist { font-family:Arial; font-size:11; color:rgb(102,102,102); }
+table.namo-table { font-family:Arial; font-size:11; color:rgb(102,102,102); background-color:white; }
+table.namo-table td { font-family:Arial; font-size:11; background-color:white; }
+table.namo-table th { font-family:Arial; font-size:11; color:rgb(102,102,102); background-color:rgb(255,247,235); }
+span.namo-link, a:link { font-family:Arial; color:rgb(22,85,133); }
+span.namo-visited, a:visited { font-family:Arial; color:rgb(93,101,113); }
+span.namo-active, a:active { font-family:Arial; color:rgb(233,1,28); }
+a:hover { font-family:Arial; color:rgb(255,108,0); }
+li.namo-list1 { list-style-image:url('nav/bullet1.gif'); }
+li.namo-list2 { list-style-image:url('nav/bullet2.gif'); }
+-->
+</style>
+<meta http-eq>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script language="JavaScript">
+<!--
+function na_change_img_src(name, nsdoc, rpath, preload)
+{ 
+  var img = eval((navigator.appName.indexOf('Netscape', 0) != -1) ? nsdoc+'.'+name : 'document.all.'+name);
+  if (name == '')
+    return;
+  if (img) {
+    img.altsrc = img.src;
+    img.src    = rpath;
+  } 
+}
+
+function na_restore_img_src(name, nsdoc)
+{
+  var img = eval((navigator.appName.indexOf('Netscape', 0) != -1) ? nsdoc+'.'+name : 'document.all.'+name);
+  if (name == '')
+    return;
+  if (img && img.altsrc) {
+    img.src    = img.altsrc;
+    img.altsrc = null;
+  } 
+}
+
+// -->
+</script>
+<body background="CNC_Pro_vonal.jpg" leftmargin="0" marginwidth="0" topmargin="0" marginheight="0">
+<table width="900" cellpadding="0" cellspacing="0" height="256">
+    <tr>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td height="235">
+
+            <p style="margin-left:160;">&nbsp;</p>
+            <p style="margin-left:160;">&nbsp;</p>
+            <p>&nbsp;</p>
+            <div id="layer5" style="width:459px; height:100px; position:absolute; left:100px; top:150px; z-index:1;">
+                <dl>
+                    <dt class=MsoNormal style='margin-left:36.0pt' align="left">
+<div align="left">
+                        <dl>
+                            <dt>
+<font face="Tahoma"><span style="font-family:Tahoma; font-size:10pt; color:rgb(51,51,51);">Sz&eacute;khely:</span><span style="font-size:10pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:Tahoma; font-size:10pt; color:rgb(51,51,51);">2112&nbsp;Veresegyh&aacute;z,
+Aranyforint u. 19.</span></font></dt>
+                            <dt class=MsoNormal style='margin-left:36.0pt'>
+                                                                
+                                                                                                
+                                
+                                                        <dt class=MsoNormal style='margin-left:36.0pt'>
+                                                                
+                                                                                                
+                                
+                            <dt>
+<font face="Tahoma"><span style="font-family:Tahoma; font-size:10pt; color:rgb(51,51,51);">Ad&oacute;sz&aacute;m:</span><span style="font-size:10pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:Tahoma; font-size:10pt; color:rgb(51,51,51);">13732950-2-13 &nbsp;&nbsp;/ &nbsp;&nbsp;</span></font><span style='font-size:10.0pt;font-family:Tahoma;
+mso-fareast-font-family:"Times New Roman";color:#333333;mso-ansi-language:HU;
+mso-fareast-language:HU;mso-bidi-language:AR-SA'>HU13732950</span></dt>
+                            <dt>
+<font face="Tahoma"><span style="font-family:Tahoma; font-size:10pt; color:rgb(51,51,51);">mailto:</span><span style="font-size:10pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:11pt;">&nbsp;&nbsp;&nbsp;&nbsp; </span></font><a
+href="mailto:mail@cnc-pro.hu"><font face="Tahoma"><span style="font-family:Tahoma; font-size:11pt; color:rgb(51,51,51);">cncpro@t-online.hu</span></font></a><span style="font-size:11pt;"></span></dt>
+                            <dt>
+<font face="Tahoma"><span style="font-family:Tahoma; font-size:10pt; color:rgb(51,51,51);">mobil: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-family:Tahoma; font-size:11pt; color:rgb(51,51,51);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+36 30 911 1261</span></font></dt>
+
+                        </dl>
+                            <dd><font face="Tahoma"><span style="font-size:10pt;"></span></font></dd>
+</div>
+                </dl>
+                <dl>
+<div align="left">
+                        <dd><font face="Tahoma"><span style="font-size:10pt;"></span></font></dd>
+</div>
+                </dl>
+                <dl>
+<div align="left">
+</div>
+                </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+        </td>
+    </tr>
+</table>
+
+
+<table width="760" cellpadding="0" cellspacing="0">
+    <tr>
+        <td align="center" width="760">
+            <div align="right">
+                <div id="layer2" style="width:100px; height:80px; position:absolute; left:670px; top:35px; z-index:1;">
+<!--NAMO_NAVBAR_START T V C h m s 0 11 2 4 3 5 -->
+<div align="center">
+<a href="javascript:void(0)"  onmouseover="nn_showMenu(document.navmenu3997797, nn_menu_left(this, 'anchor_menu3997797', false), nn_menu_top(this, 24, false))" onmouseout="nn_hs_hidemenu(this)"><img src="nav/nav_11_index_btn_homeh.gif" name="nav_index_TV0" 
+border="0" class="namo-hibutton1" alt="Home" align="texttop"></a>&nbsp;<br>
+<a href="tips.html"  
+onmouseover="na_change_img_src('nav_index_TV1', 'document', 'nav/nav_11_tips_tvr.gif', true);"
+onmouseout="na_restore_img_src('nav_index_TV1', 'document');"><img src="nav/nav_11_tips_tv.gif" name="nav_index_TV1" 
+border="0" class="namo-button1" alt="English" align="texttop"></a>&nbsp;<br>
+<a href="about.html"  
+onmouseover="na_change_img_src('nav_index_TV2', 'document', 'nav/nav_11_about_tvr.gif', true);"
+onmouseout="na_restore_img_src('nav_index_TV2', 'document');"><img src="nav/nav_11_about_tv.gif" name="nav_index_TV2" 
+border="0" class="namo-button1" alt="Deutsch" align="texttop"></a>&nbsp;<br>
+<a href="board.html"  
+onmouseover="na_change_img_src('nav_index_TV3', 'document', 'nav/nav_11_board_tvr.gif', true);"
+onmouseout="na_restore_img_src('nav_index_TV3', 'document');"><img src="nav/nav_11_board_tv.gif" name="nav_index_TV3" 
+border="0" class="namo-button1" alt="Italiano" align="texttop"></a><a name="anchor_menu3997797">&nbsp;</a><br>
+</div>
+<!--NAMO_NAVBAR_END--></div>
+                <p>&nbsp;</p>
+                <p><font face="Tahoma">&nbsp;</font></p>
+                <div id="layer3" style="width:700px; height:276px; position:absolute; left:68px; top:260px; z-index:1; visibility:visible;">
+
+
+
+
+
+
+
+<p style='text-align:justify'><span style="font-family:Tahoma; font-size:10pt; color:rgb(102,102,102);"><font color="#333333">A <b style='mso-bidi-font-weight:normal'>CNC-Pro Kft.</b>
+sz&eacute;khelye Veresegyh&aacute;zon tal&aacute;lhat&oacute;, amely Budapestt&ouml;l 25 km-re fekszik.<o:p></o:p></font></span><span style="font-size:10pt;"><font color="#333333"></font></span></p>
+
+<p style='text-align:justify'><span style="font-family:Tahoma; font-size:10pt; color:rgb(102,102,102);"><font color="#333333">Munkat&aacute;rsaink vezet&ouml; multinacion&aacute;lis c&eacute;gekn&eacute;l szereztek 10-15
+&eacute;ves szersz&aacute;mg&eacute;pjav&iacute;t&aacute;si tapasztalatot.<o:p></o:p></font></span><span style="font-size:10pt;"><font color="#333333"></font></span></p>
+
+<p align="left"><u><span style="font-family:Tahoma; font-size:10pt; color:rgb(102,102,102);"><font color="#333333">F&ouml;
+tev&eacute;kenys&eacute;geink:<o:p></o:p></font></span></u><span style="font-size:10pt;"><font color="#333333"></font></span></p>
+
+<ul type=disc>
+                        <li class=MsoNormal style='color:#666666;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;text-align:justify;mso-list:l0 level1 lfo1;tab-stops:list 36.0pt'><span style="font-family:Tahoma; font-size:10pt;"><font color="#333333">Hagyom&aacute;nyos-, NC- ill. CNC
+     szersz&aacute;mg&eacute;pek telep&iacute;t&eacute;se, jav&iacute;t&aacute;sa</font></span><span style="font-family:Arial; font-size:10pt;"><font color="#333333"><o:p></o:p></font></span><span style="font-size:10pt;"><font color="#333333"></font></span></li>
+                        <li class=MsoNormal style='color:#666666;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;text-align:justify;mso-list:l0 level1 lfo1;tab-stops:list 36.0pt'><span style="font-family:Tahoma; font-size:10pt;"><font color="#333333">Megel&ouml;z&ouml; karbantart&aacute;sok
+     tervez&eacute;se, kivitelez&eacute;se</font></span><span style="font-family:Arial; font-size:10pt;"><font color="#333333"><o:p></o:p></font></span><span style="font-size:10pt;"><font color="#333333"></font></span></li>
+                        <li class=MsoNormal style='color:#666666;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;text-align:justify;mso-list:l0 level1 lfo1;tab-stops:list 36.0pt'><span style="font-family:Tahoma; font-size:10pt;"><font color="#333333">Teljes mechanikai- ill.
+     elektromos g&eacute;pfel&uacute;j&iacute;t&aacute;s, f&ouml;ors&oacute; csap&aacute;gyaz&aacute;s, vez&eacute;rl&ouml; csere.</font></span><span style="font-family:Arial; font-size:10pt;"><font color="#333333">  <o:p></o:p></font></span><span style="font-size:10pt;"><font color="#333333"></font></span></li>
+</ul>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify'><span style="font-family:Tahoma; font-size:10pt; color:rgb(102,102,102);"><font color="#333333">Az &eacute;vek sor&aacute;n kialak&iacute;tott nemzetk&ouml;zi kapcsolatrendszer&uuml;nknek
+k&ouml;sz&ouml;nhet&ouml;en gyorsan hozz&aacute;jutunk szinte b&aacute;rmilyen CNC g&eacute;palkatr&eacute;szhez.</font></span><span style="font-family:Arial; font-size:10pt; color:rgb(102,102,102);"><font color="#333333">  <o:p></o:p></font></span><span style="font-size:10pt;"><font color="#333333"></font></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify'><u><span style="font-family:Tahoma; font-size:10pt; color:rgb(102,102,102);"><font color="#333333">G&eacute;pismeret&uuml;nk kiterjed:<o:p></o:p></font></span></u><span style="font-size:10pt;"><font color="#333333"></font></span></p>
+
+<ul type=disc>
+                        <li class=MsoNormal style='color:#666666;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;text-align:justify;mso-list:l1 level1 lfo2;tab-stops:list 36.0pt'><span style="font-family:Tahoma; font-size:10pt;"><font color="#333333">mar&oacute;g&eacute;pekre<o:p></o:p></font></span><span style="font-size:10pt;"><font color="#333333"></font></span></li>
+                        <li class=MsoNormal style='color:#666666;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;text-align:justify;mso-list:l1 level1 lfo2;tab-stops:list 36.0pt'><span style="font-family:Tahoma; font-size:10pt;"><font color="#333333">horizont&aacute;lis- &eacute;s vertik&aacute;lis
+     eszterg&aacute;kra<o:p></o:p></font></span><span style="font-size:10pt;"><font color="#333333"></font></span></li>
+                        <li class=MsoNormal style='color:#666666;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;text-align:justify;mso-list:l1 level1 lfo2;tab-stops:list 36.0pt'><span style="font-family:Tahoma; font-size:10pt;"><font color="#333333">f&uuml;r&eacute;szg&eacute;pekre<o:p></o:p></font></span><span style="font-size:10pt;"><font color="#333333"></font></span></li>
+                        <li class=MsoNormal style='color:#666666;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;text-align:justify;mso-list:l1 level1 lfo2;tab-stops:list 36.0pt'><span style="font-family:Tahoma; font-size:10pt;"><font color="#333333">stancol&oacute;g&eacute;pekre<o:p></o:p></font></span><span style="font-size:10pt;"><font color="#333333"></font></span></li>
+                        <li class=MsoNormal style='color:#666666;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;text-align:justify;mso-list:l1 level1 lfo2;tab-stops:list 36.0pt'><span style="font-family:Tahoma; font-size:10pt;"><font color="#333333">lemezdarabol&oacute;- ill.
+     &eacute;l/cs&ouml;hajl&iacute;t&oacute; g&eacute;pekre<o:p></o:p></font></span><span style="font-size:10pt;"><font color="#333333"></font></span></li>
+                        <li class=MsoNormal style='color:#666666;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;text-align:justify;mso-list:l1 level1 lfo2;tab-stops:list 36.0pt'><span style="font-family:Tahoma; font-size:10pt;"><font color="#333333">v&iacute;zsugaras v&aacute;g&oacute;g&eacute;pekre<o:p></o:p></font></span><span style="font-size:10pt;"><font color="#333333"></font></span></li>
+</ul>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify'><span style="font-family:Tahoma; font-size:10pt; color:rgb(102,102,102);"><font color="#333333">Sz&aacute;munkra nagyon fontos a folyamatos fejl&ouml;d&eacute;s, ez&eacute;rt neves eur&oacute;pai
+g&eacute;pgy&aacute;rt&oacute;khoz j&aacute;runk</font></span><font color="#333333"><span style="font-size:10pt;">&nbsp; </span></font><span style="font-family:Tahoma; font-size:10pt; color:rgb(102,102,102);"><font color="#333333">szerv&iacute;ztechnikusi
+tr&eacute;ningekre, pl. Lengyelorsz&aacute;gba, Szlov&aacute;ki&aacute;ba, Olaszorsz&aacute;gba, Sv&aacute;jcba ill.
+Hollandi&aacute;ba.<o:p></o:p></font></span><span style="font-size:10pt;"><font color="#333333"></font></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify'><span style="font-family:Tahoma; font-size:10pt; color:rgb(102,102,102);"><font color="#333333">Fiatalos csapatunk nyitott a folyamatos kih&iacute;v&aacute;sokra, amelyet a
+biztos szaktud&aacute;ssal &ouml;tv&ouml;zve szeretn&eacute;nk min&eacute;l t&ouml;bb el&eacute;gedett Partner&uuml;nknek
+bizony&iacute;tani.</font></span></p>
+
+
+                </div>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <div id="layer1" style="background-image:url('CNC_Pro_banner_081.jpg'); width:600px; height:99px; position:absolute; left:45px; top:35px; z-index:1;">
+                    <p>&nbsp;</p>
+                </div>
+                <p>&nbsp;</p>
+
+            </div>
+            <p>&nbsp;</p>
+<!--NAMO_SHARED_CONTENTS_START name="NamoCopy" time="27543000,1ccd2a4"-->
+<p><font size="2"></font></p><!--NAMO_SHARED_CONTENTS_END-->
+
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+        </td>
+    </tr>
+</table>
+<div id="layer4" style="background-image:url('CNC_Pro_gepek_alul.jpg'); width:813px; height:114px; position:absolute; left:0px; top:760px; z-index:0;">
+    <p>&nbsp;</p>
+</div>
+
+</body>

@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route } from "react-router";
+import Navbar from "./components/Navbar";
+import { Routes } from "react-router";
+import UvNyomtatas from "./pages/Uv-nyomtatas";
+import Home from "./pages/Home";
+import Szerviz from "./pages/Szerviz";
+import Kapcsolat from "./pages/Kapcsolat";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="uv-nyomtatas" element={<UvNyomtatas />} />
+        <Route path="szerviz" element={<Szerviz />} />
+        <Route path="kapcsolat" element={<Kapcsolat />} />
+      </Routes>
+      <Footer />
     </div>
   );
 }

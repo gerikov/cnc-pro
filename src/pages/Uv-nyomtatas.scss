@@ -1,0 +1,129 @@
+p {
+  line-height: 1.7rem;
+  margin-bottom: 1rem;
+}
+
+.left,
+.right {
+  width: 45% !important;
+}
+img {
+  max-width: 100%;
+}
+.uv-nyomtatas {
+  .hero {
+    padding: 0 6%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+      url("../assets/roland-uv.jpg");
+    height: 30vh;
+    background-size: cover;
+    .content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      flex-direction: column;
+      color: white;
+      text-align: center;
+      h2 {
+        font-size: 3rem;
+      }
+      h3 {
+        margin-top: 2rem;
+        font-size: 2.5rem;
+        font-weight: normal;
+      }
+    }
+  }
+  section {
+    margin-top: 4rem;
+  }
+  .container {
+    padding: 0 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    .uv-print {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+
+      h2 {
+        margin-bottom: 1rem;
+      }
+      .left {
+        display: flex;
+        flex-direction: column;
+      }
+      .right {
+      }
+    }
+    .led {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      h2 {
+        margin-bottom: 1rem;
+      }
+    }
+    .white {
+      .label {
+        h3 {
+          text-align: center;
+          background-color: #000;
+          color: white;
+          margin-bottom: 2rem;
+          padding: 0.5rem 0;
+        }
+        p {
+          max-width: 900px;
+          margin: 0 auto;
+        }
+      }
+    }
+    .roland {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+
+      h2 {
+        margin-bottom: 1rem;
+      }
+    }
+
+    .works {
+      .title {
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+      .slider {
+        margin-bottom: 4rem;
+        .slide {
+          margin: 0 1rem;
+          img {
+            height: 200px;
+            width: 600px;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .left,
+  .right {
+    width: 100% !important ;
+    padding: 0 !important;
+  }
+
+  .led {
+    flex-direction: column-reverse;
+  }
+}

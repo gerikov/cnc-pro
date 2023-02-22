@@ -1,0 +1,51 @@
+.left,
+.right {
+  width: 50%;
+}
+
+.kapcsolat {
+  padding: 0 6%;
+  .hero {
+  }
+  .container {
+    color: white;
+    max-width: 1200px;
+    justify-content: center;
+    margin: 4rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    .left {
+      border-radius: 10px;
+      padding: 4rem !important;
+      background-color: #000;
+    }
+
+    .right {
+      margin: auto 0;
+      border-radius: 0 10px 10px 0;
+      background-color: #fff;
+      padding: 4rem !important;
+      .unit {
+        display: flex;
+        margin-bottom: 1rem;
+      }
+      .label {
+        font-size: 1rem;
+        font-weight: 600;
+        color: #595959;
+      }
+      .data {
+        font-size: 1.5rem;
+        font-weight: 300;
+
+        color: black;
+      }
+      .icon {
+        color: black;
+        margin-right: 1.5rem;
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}

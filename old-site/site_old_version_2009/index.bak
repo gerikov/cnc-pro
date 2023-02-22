@@ -1,0 +1,97 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>CNC-Pro Kft.</title>
+<meta name="author" content="webmaster@takisawa.hu">
+<meta name="generator" content="Namo WebEditor">
+<meta name="description" content="céges, kereskedelem, szolgáltatás">
+<meta name="keywords" content="cnc szerviz">
+<meta http-equiv="content-type" content="text/html; windows-1250">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+</head>
+<body text="#000000" bgcolor="#ffffff">
+<marquee bgcolor=#ffffff direction=up height=70 onMouseOut=this.scrollAmount=1 
+onMouseOver=this.scrollAmount=0 scrollamount=1 width=800>
+<font color=#000000 face="courirer" size=1>
+<b>
+G0 G53 G90 Z0 D0<BR>
+T24 M6<BR>
+G0 G54 X32 Y-2 S800 M3 F160<BR>
+Z-9.8 D1 M8<BR>
+OFFN=0.3<BR>
+G1 G42 X0<BR>
+*GP*;*RO*;*HD*<BR>
+G17 G90 DIAMOF ;*GP*<BR>
+G0 X0 Y-2 ;*GP*<BR>
+G1 Y50 ;*GP*<BR>
+X-11.7157 ;*GP*<BR>
+G2 X-62.6601 Y79.6601 I=AC(-40) J=AC(60) ;*GP*<BR>
+G1 X-98 Y115 ;*GP*<BR>
+X-187 Y91.1525 ;*GP*<BR>
+X-156.6628 Y60.8153 ;*GP*<BR>
+G2 X-107 Y22 I=AC(-147) J=AC(22) ;*GP*<BR>
+G1 Y0 ;*GP*<BR>
+X2 ;*GP*<BR>
+CON,0,0.0000,9,9,MST:0,0,AX:X,Y,I,J;*GP*;*RO*;*HD*<BR>
+S,EX:0,EY:-2;*GP*;*RO*;*HD*<BR>
+LU,EY:50;*GP*;*RO*;*HD*<BR>
+LL;*GP*;*RO*;*HD*<BR>
+ACW,DIA:230/217,CX:-40,CY:60,RAD:30;*GP*;*RO*;*HD*<BR>
+LA,EX:-98,EY:115,ASE:135;*GP*;*RO*;*HD*<BR>
+LA,EX:-187,ASE:195;*GP*;*RO*;*HD*<BR>
+LA,DIA:225/0,ASE:315;*GP*;*RO*;*HD*<BR>
+ACW,DIA:10/0,EY:22,CX:-147,CY:22,RAD:40;*GP*;*RO*;*HD*<BR>
+LD,EY:0;*GP*;*RO*;*HD*<BR>
+LR,EX:2;*GP*;*RO*;*HD*<BR>
+*GP*;*RO*;*HD*<BR>
+OFFN=0<BR>
+G40 Y-32<BR>
+ZWO(25,2)<BR>
+G0 G54 X2 Y-32 S800 M3 F100<BR>
+Z-10 D1 M8<BR>
+G1 G41 Y0<BR>
+*GP*;*RO*;*HD*<BR>
+G17 G90 DIAMOF ;*GP*<BR>
+G0 X2 Y0 ;*GP*<BR>
+G1 X-107 ;*GP*<BR>
+Y22 ;*GP*<BR>
+G3 X-156.6628 Y60.8153 I=AC(-147) J=AC(22) ;*GP*<BR>
+G1 X-187 Y91.1525 ;*GP*<BR>
+X-98 Y115 ;*GP*<BR>
+X-62.6601 Y79.6601 ;*GP*<BR>
+G3 X-11.7157 Y50 I=AC(-40) J=AC(60) ;*GP*<BR>
+G1 X0 ;*GP*<BR>
+Y-2 ;*GP*<BR>
+CON,0,0.0000,9,9,MST:0,0,AX:X,Y,I,J;*GP*;*RO*;*HD*<BR>
+S,EX:2,EY:0;*GP*;*RO*;*HD*<BR>
+LL;*GP*;*RO*;*HD*<BR>
+LU,EY:22;*GP*;*RO*;*HD*<BR>
+ACCW,DIA:230/217,CX:-147,CY:22,RAD:40;*GP*;*RO*;*HD*<BR>
+LA,EX:-187,ASE:135;*GP*;*RO*;*HD*<BR>
+LA,EX:-98,EY:115,ASE:15;*GP*;*RO*;*HD*<BR>
+LA,DIA:225/0,ASE:315;*GP*;*RO*;*HD*<BR>
+ACCW,DIA:10/0,EY:50,CX:-40,CY:60,RAD:30;*GP*;*RO*;*HD*<BR>
+LR,EX:0;*GP*;*RO*;*HD*<BR>
+LD,EY:-2;*GP*;*RO*;*HD*<BR>
+*GP*;*RO*;*HD*<BR>
+G0 G40 X32<BR>
+G0 G90 G53 Z0 D0 M95<BR>
+M30<BR>
+<hr></b></font>
+<p></marquee>
+<br>
+<font color=#000000 face="courirer" size=1></font></p>
+<p>
+&nbsp;</p>
+<p><img src="CNC_Pro_Kft.jpg" width="191" height="49" border="0"></p>
+<p>&nbsp;</p>
+<p>&lt;style type=&quot;text/css&quot;&gt;.ct {font:6pt;text-align:center;margin:0px}.ct img{border:0} .ct a,.ct a:visited{color:silver;text-decoration:none}.ct a:hover{color:gray;text-decoration:underline}&lt;/style&gt;&lt;div class=ct&gt;&lt;a href=&quot;http://acme-web-design.info&quot;&gt;&lt;img src=&quot;http://acme-web-design.info/counter.php?id=8AF0278013244D41BFA718F3A2E94F93&amp;style=85&quot; alt=&quot;acme-web-design.info&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://acme-web-design.info&quot;&gt;acme-web-design.info&lt;/a&gt;&lt;/div&gt;</p>
+<p><br>
+<font SIZE="2">
+</p>
+<p>CNC-Pro Kft.</p>
+<p>1067 Csengery ut 57.</p>
+<p>Site under construction.</p>
+</body>
+</html>

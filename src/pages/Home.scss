@@ -1,0 +1,85 @@
+.main {
+  position: absolute;
+  top: 0;
+  width: 100%;
+
+  .container {
+    color: #fff;
+    background: #444;
+    height: 50vh;
+    padding: 6%;
+    &.cnc {
+      background-image: linear-gradient(
+          to bottom,
+          transparent,
+          rgba(0, 0, 0, 1)
+        ),
+        url("../assets/pexels-daniel-smyth-10824760.jpg");
+      background-position: center center;
+      background-size: cover;
+    }
+
+    &.uv {
+      background-image: linear-gradient(
+          to bottom,
+          transparent,
+          rgba(0, 0, 0, 1)
+        ),
+        url("../assets/roland-LEF-12-4.jpg");
+      background-position: center center;
+      background-size: cover;
+    }
+
+    .container__content {
+      display: flex;
+      justify-content: center !important;
+      align-items: center;
+      height: 100%;
+      flex-direction: column;
+      overflow: hidden;
+      h2 {
+        font-size: 3rem;
+        font-weight: 600;
+        text-align: center;
+      }
+      h3 {
+        font-size: 2.5rem;
+        font-weight: 100;
+        padding-top: 1rem;
+        text-align: center;
+      }
+      button {
+        margin-top: 2rem;
+        padding: 0.4rem 1rem;
+        background: transparent;
+        font-size: 1.8rem;
+        color: white;
+        border: 2px solid white;
+        border-radius: 0.5rem;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: rgba(255, 255, 255, 1);
+        transition-duration: 0.3s;
+        color: black;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 6%;
+    .container__content {
+      justify-content: center !important;
+      h2 {
+        font-size: 2rem !important;
+      }
+      h3 {
+        font-size: 1.5rem !important;
+        font-weight: 300 !important;
+        padding-top: 1rem;
+      }
+    }
+  }
+}

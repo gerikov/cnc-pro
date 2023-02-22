@@ -1,0 +1,154 @@
+h3 {
+  margin: 1rem 0;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+h4 {
+  color: dimgray;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+h5 {
+  font-weight: normal;
+  font-size: 1.3rem;
+  margin: 1rem 0;
+}
+
+p,
+li {
+  font-weight: 300;
+}
+li {
+  list-style: none;
+}
+
+.szerviz {
+  line-height: 2rem;
+  .szerviz__hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+      url("../assets/safan.png");
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h3 {
+      text-align: center !important;
+      color: #fff;
+      font-size: 2.5rem;
+    }
+
+    button {
+      margin-top: 2rem;
+      padding: 0.4rem 1rem;
+      background: transparent;
+      font-size: 1.8rem;
+      color: white;
+      border: 2px solid white;
+      border-radius: 0.5rem;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: rgba(255, 255, 255, 1);
+      transition-duration: 0.3s;
+      color: black;
+    }
+    .szerviz__hero-phone {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  /* SERVICE SECTION */
+
+  .szerviz__cnc {
+    padding: 0 6%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 4rem auto;
+    .szerviz__cnc-text {
+      float: left;
+      width: 50%;
+      padding: 2rem;
+    }
+    .szerviz__cnc-img {
+      width: 50%;
+
+      img {
+        max-width: 100%;
+        height: 100%;
+        filter: drop-shadow(15px -15px 0 #000);
+        object-fit: cover;
+      }
+    }
+  }
+
+  .szerviz__machines {
+    padding: 0 6%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 8rem auto;
+    .szerviz__machines-img {
+      background-color: rgb(225, 151, 53);
+      width: 50%;
+
+      //   display: flex;
+
+      img {
+        max-width: 100%;
+        height: 100%;
+        filter: drop-shadow(-15px 15px 0 #000);
+        object-fit: cover;
+      }
+    }
+
+    .szerviz__machines-text {
+      padding: 2rem;
+      width: 50%;
+
+      .divider {
+        border-top: 1px solid dimgray;
+        width: 50%;
+        margin: 1rem 0;
+      }
+    }
+  }
+  .szerviz__brands {
+    margin: 8rem auto;
+    background-color: black;
+    h5 {
+      color: white;
+      font-style: italic;
+      font-weight: 300;
+    }
+    .szerviz__brands-container {
+      padding: 4rem 6%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .szerviz__cnc {
+    display: block;
+  }
+  .szerviz__cnc-text,
+  .szerviz__cnc-img {
+    width: 100% !important;
+  }
+
+  .szerviz__machines-text,
+  .szerviz__machines-img {
+    margin: auto 0;
+    width: 100% !important;
+  }
+}

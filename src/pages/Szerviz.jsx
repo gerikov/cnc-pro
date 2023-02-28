@@ -25,19 +25,15 @@ const Szerviz = () => {
           <h4>CNC SZERSZÁMGÉPEK</h4>
           <h3>Mivel foglalkozunk?</h3>
           <p>
+            Fő profilunk lemezipari gépek telepítése, javítása, karbantartása.
             Munkatársaink vezető multinacionális cégeknél szereztek 10-15 éves
             szerszámgépjavítási tapasztalatot.
           </p>
           <h5>Fő tevékenységeink:</h5>
           <ul>
-            <li>
-              Hagyományos-, NC- ill. CNC szerszámgépek telepítése, javítása
-            </li>
+            <li>CNC szerszámgépek telepítése, javítása</li>
             <li>Megelőző karbantartások tervezése, kivitelezése</li>
-            <li>
-              Teljes mechanikai- ill. elektromos gépfelújítás, főorsó
-              csapágyazás, vezérlő csere.
-            </li>
+            <li>Teljes mechanikai- ill. elektromos gépfelújítás.</li>
           </ul>
         </div>
         <div className="szerviz__cnc-img">
@@ -52,18 +48,18 @@ const Szerviz = () => {
           <h4>GÉPISMERET</h4>
           <h3>Tapasztalattal rendelkezünk</h3>
           <ul>
-            <li>Marógépekre</li>
-            <li>Horizontális- és vertikális esztergákra</li>
+            <li>Élhajlító</li>
+            <li>Csőhajlító</li>
             <li>Stancológépekre</li>
-            <li>Lemezdaraboló- ill. él/csőhajlító gépekre</li>
-            <li>Mérgépekre</li>
+            <li>Lemezdaraboló</li>
+            <li>Minőségellenőrző és</li>
             <li>Lézergépekre</li>
           </ul>
           <div className="divider"></div>
           <p>
             Az évek során kialakított nemzetközi kapcsolatrendszerünknek
-            köszönhetően gyorsan hozzájutunk szinte bármilyen CNC
-            gépalkatrészhez.
+            köszönhetően gyorsan hozzájutunk az általunk szervizelt gépek
+            alkatrészeihez.
           </p>
         </div>
       </section>
@@ -71,8 +67,7 @@ const Szerviz = () => {
         <div className="szerviz__brands-container">
           <h5>
             A tudásunk bővítése érdekében neves európai gyártókhoz járunk
-            trénigekre, Lengyelországba és Hollandiába, ez biztosítja hogy
-            folyamatosan naprakészek tudjuk maradni.
+            trénigekre.
           </h5>
           <h5>
             Fiatalos csapatunk nyitott a folyamatos kihívásokra, amelyet a

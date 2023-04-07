@@ -2,11 +2,14 @@
   position: absolute;
   top: 0;
   width: 100%;
+  display: flex;
+  height: 100vh;
 
   .container {
     color: #fff;
     background: #444;
-    height: 50vh;
+    height: 100vh;
+    width: 50%;
     padding: 6%;
     &.cnc {
       background-image: linear-gradient(
@@ -14,7 +17,7 @@
           transparent,
           rgba(0, 0, 0, 1)
         ),
-        url("../assets/pexels-daniel-smyth-10824760.jpg");
+        url('../assets/pexels-daniel-smyth-10824760.jpg');
       background-position: center center;
       background-size: cover;
     }
@@ -25,7 +28,7 @@
           transparent,
           rgba(0, 0, 0, 1)
         ),
-        url("../assets/roland-LEF-12-4.jpg");
+        url('../assets/roland-LEF-12-4.jpg');
       background-position: center center;
       background-size: cover;
     }
@@ -68,17 +71,21 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .container {
-    padding: 6%;
-    .container__content {
-      justify-content: center !important;
-      h2 {
-        font-size: 2rem !important;
-      }
-      h3 {
-        font-size: 1.5rem !important;
-        font-weight: 300 !important;
-        padding-top: 1rem;
+  .main {
+    flex-direction: column;
+    .container {
+      padding: 6%;
+      height: 50vh;
+      .container__content {
+        justify-content: center !important;
+        h2 {
+          font-size: 2rem !important;
+        }
+        h3 {
+          font-size: 1.5rem !important;
+          font-weight: 300 !important;
+          padding-top: 1rem;
+        }
       }
     }
   }

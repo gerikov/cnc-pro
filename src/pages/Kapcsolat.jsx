@@ -26,7 +26,7 @@ const Kapcsolat = () => {
             </div>
             <div>
               <div className="label">Székhely</div>
-              <div className="data">2112 Veresegyház, Aranyforint u. 19. </div>
+              <div className="data">2112 Veresegyház, Hármaskút utca 11. </div>
             </div>
           </div>
           <div className="unit">
